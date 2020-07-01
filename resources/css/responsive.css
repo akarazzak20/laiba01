@@ -14,9 +14,10 @@
 }
 
 @media only screen and (max-width:1024px) {
-	.mobile-menu span{
+	.mobile-menu span {
 		display: block;
 	}
+
 	header {
 		height: 75vh;
 	}
@@ -40,6 +41,7 @@
 		float: none;
 		text-align: center;
 	}
+
 	.contact-section form {
 		width: 100%;
 		margin-left: 0;
@@ -131,7 +133,7 @@
 	}
 
 	h1 {
-		font-size: 2.5rem;
+		font-size: 2.1rem;
 	}
 
 	.btn,
@@ -150,5 +152,11 @@
 
 	.footer-section {
 		padding: 2rem;
+	}
+}
+
+@media only screen and (max-width:321px) {
+	h1 {
+		font-size: 1rem;
 	}
 }
