@@ -227,7 +227,7 @@ header {
 	color: #fff;
 	font-size: 4rem;
 	float: right;
-	margin-top: 1rem;
+	margin-top: auto;
 	display: none;
 }
 
@@ -520,7 +520,7 @@ svg.ui-ux circle {
 }
 
 .testimonial h2::after {
-	color: #
+	color: #fff;
 }
 
 .testimonial h3 {
@@ -609,7 +609,7 @@ span {
 .contact-section input[type="email"],
 .contact-section textarea {
 	background: #273a71;
-	border: 0.1rem solid #273a71;
+	border: 0.1rem solid #273a78;
 	width: 100%;
 	padding: 1.5rem;
 	border-radius: .5rem;
@@ -671,10 +671,3 @@ span {
 .footer-section li a:hover {
 	color: #30BAE7;
 }
-
-/*
-https://www.youtube.com/watch?v=rMhNSwNxPmU&list=PLm64fbD5OnxuwbRX9RkM47toOZ2gSzHi0&index=23
-> > part 23
-
-https://www.youtube.com/user/LearnWebCode/featured
-*/
