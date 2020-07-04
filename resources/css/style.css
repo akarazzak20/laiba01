@@ -270,11 +270,12 @@ header {
 	color: #fff;
 }
 
-.overlay .closebtn {
+.overlay .closebtn {    
 	position: absolute;
-	top: 2rem;
-	left: 4.5rem;
-	font-size: 6rem;
+    top: 48rem;
+    left: 24.5rem;
+    font-size: 6rem;
+    color: orangered;
 }
 
 /*=====================*/
