@@ -16,6 +16,7 @@
 @media only screen and (max-width:1024px) {
 	.mobile-menu span {
 		display: block;
+		margin-top: 2rem;
 	}
 
 	header {
