@@ -621,6 +621,7 @@ span {
 .contact-section textarea {
 	height: 10rem;
 	margin-bottom: 1rem;
+	min-wudth: 100%;
 }
 
 .contact-section form textarea::placeholder,
