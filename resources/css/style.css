@@ -200,7 +200,7 @@ header {
 }
 
 .sticky .logo {
-	margin-top: 0;
+	margin-top: 1rem;
 }
 
 .sticky .main-nav {
@@ -227,7 +227,7 @@ header {
 	color: #fff;
 	font-size: 4rem;
 	float: right;
-	margin-top: auto;
+	margin-top: 2rem;
 	display: none;
 }
 
@@ -272,10 +272,10 @@ header {
 
 .overlay .closebtn {
 	position: absolute;
-    top: 90%;
-    left: 80%;
-    font-size: 6rem;
-    color: #ff4500;
+	top: 80%;
+	left: 85%;
+	font-size: 6rem;
+	color: #ff0000;
 }
 
 /*=====================*/
@@ -521,7 +521,7 @@ svg.ui-ux circle {
 }
 
 .testimonial h2::after {
-	color: #fff;
+	color: #
 }
 
 .testimonial h3 {
@@ -610,7 +610,7 @@ span {
 .contact-section input[type="email"],
 .contact-section textarea {
 	background: #273a71;
-	border: 0.1rem solid #273a78;
+	border: 0.1rem solid #273a71;
 	width: 100%;
 	padding: 1.5rem;
 	border-radius: .5rem;
@@ -620,8 +620,8 @@ span {
 
 .contact-section textarea {
 	height: 10rem;
-	margin-bottom: 1rem;
-	min-wudth: 100%;
+	margin: .3rem 0 1rem 0;
+	min-width: 100%;
 }
 
 .contact-section form textarea::placeholder,
