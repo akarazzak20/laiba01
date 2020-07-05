@@ -6,10 +6,6 @@
 	.row {
 		margin: 0 1rem;
 	}
-	
-	.sticky span {
-	margin-top: 1rem;
-	}
 
 	.hero-text-box {
 		width: 90%;
@@ -20,7 +16,11 @@
 @media only screen and (max-width:1024px) {
 	.mobile-menu span {
 		display: block;
-		margin-top: 2rem;
+	}
+
+	.sticky .logo,
+	.sticky span {
+		margin-top: .5rem;
 	}
 
 	header {
@@ -52,8 +52,9 @@
 		margin-left: 0;
 	}
 
-	.contact-section textarea {
-		min-width: 100%;
+	.msg-box {
+		width: 100%;
+		margin-left: 0;
 	}
 
 	html {
@@ -72,8 +73,13 @@
 	}
 
 	.services-section .col p {
-		font-size: 1.5rem;
+		font-size: 1.7rem;
 	}
+
+	.team-section .box p {
+		font-size: 1.6rem;
+	}
+
 
 	.contact-section form {
 		width: 100%;
@@ -138,7 +144,7 @@
 	}
 
 	h1 {
-		font-size: 2.1rem;
+		font-size: 2.5rem;
 	}
 
 	.btn,
@@ -157,11 +163,5 @@
 
 	.footer-section {
 		padding: 2rem;
-	}
-}
-
-@media only screen and (max-width:321px) {
-	h1 {
-		font-size: 2rem;
 	}
 }
