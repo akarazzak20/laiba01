@@ -6,6 +6,10 @@
 	.row {
 		margin: 0 1rem;
 	}
+	
+	.sticky .closebtn {
+	margin-top: 1rem;
+	}
 
 	.hero-text-box {
 		width: 90%;
@@ -49,7 +53,7 @@
 	}
 
 	.contact-section textarea {
-		width: 100%;
+		min-width: 100%;
 	}
 
 	html {
