@@ -272,9 +272,10 @@ header {
 
 .overlay .closebtn {
 	position: absolute;
-	top: 2rem;
-	left: 4.5rem;
+	top: 80%;
+	left: 85%;
 	font-size: 6rem;
+	color: #ff0000;
 }
 
 /*=====================*/

@@ -52,10 +52,10 @@
 		margin-left: 0;
 	}
 
-.msg-box {
-    width: 100%;
-    margin-left: 0;
-}
+	.msg-box {
+		width: 100%;
+		margin-left: 0;
+	}
 
 	html {
 		font-size: 57.5%;
@@ -79,6 +79,7 @@
 	.team-section .box p {
 		font-size: 1.6rem;
 	}
+
 
 	.contact-section form {
 		width: 100%;
@@ -163,5 +164,4 @@
 	.footer-section {
 		padding: 2rem;
 	}
-
 }
