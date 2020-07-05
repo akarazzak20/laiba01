@@ -14,9 +14,15 @@
 }
 
 @media only screen and (max-width:1024px) {
-	.mobile-menu span{
+	.mobile-menu span {
 		display: block;
 	}
+
+	.sticky .logo,
+	.sticky span {
+		margin-top: .5rem;
+	}
+
 	header {
 		height: 75vh;
 	}
@@ -40,14 +46,16 @@
 		float: none;
 		text-align: center;
 	}
+
 	.contact-section form {
 		width: 100%;
 		margin-left: 0;
 	}
 
-	.contact-section textarea {
-		width: 100%;
-	}
+.msg-box {
+    width: 100%;
+    margin-left: 0;
+}
 
 	html {
 		font-size: 57.5%;
@@ -65,7 +73,11 @@
 	}
 
 	.services-section .col p {
-		font-size: 1.5rem;
+		font-size: 1.7rem;
+	}
+
+	.team-section .box p {
+		font-size: 1.6rem;
 	}
 
 	.contact-section form {
@@ -151,4 +163,5 @@
 	.footer-section {
 		padding: 2rem;
 	}
+
 }
