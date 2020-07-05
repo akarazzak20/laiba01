@@ -624,11 +624,6 @@ span {
 	min-width: 100%;
 }
 
-form .msg-box {
-		width: 100%;
-		margin-left: 0;
-	}
-
 .contact-section form textarea::placeholder,
 .contact-section form input::placeholder {
 	color: #fff;
